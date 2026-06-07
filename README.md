@@ -67,7 +67,7 @@ github-profile-analyzer/
 ### Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/vandhana03/github_profile_analyzer
 cd github-profile-analyzer
 ```
 
@@ -86,11 +86,7 @@ Example:
 ```env
 PORT=5000
 
-DB_HOST=your_host
-DB_PORT=3306
-DB_USER=your_user
-DB_PASSWORD=your_password
-DB_NAME=your_database
+DATABASE_URL=
 ```
 
 ### Create Database Table
@@ -250,13 +246,13 @@ For each GitHub user, the application stores:
 ### Live API
 
 ```text
-<your-render-url>
+https://github-profile-analyzer-4lwj.onrender.com
 ```
 
 ### Source Code Repository
 
 ```text
-<your-github-repository-url>
+https://github.com/vandhana03/github_profile_analyzer
 ```
 
 ---
