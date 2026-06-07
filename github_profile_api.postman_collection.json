@@ -1,0 +1,86 @@
+{
+  "info": {
+    "_postman_id": "2ef87ed9-d2c6-4308-bc72-e25e99624a31",
+    "name": "github_profile_api",
+    "description": "### Welcome to Postman! This is your first collection.\n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests  \n• Test your API in real-world scenarios  \n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53218244",
+    "_collection_link": "https://go.postman.co/collection/53218244-2ef87ed9-d2c6-4308-bc72-e25e99624a31?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "get single profile",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://github-profile-analyzer-4lwj.onrender.com/api/profiles/vandhana03",
+          "protocol": "https",
+          "host": [
+            "github-profile-analyzer-4lwj",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "api",
+            "profiles",
+            "vandhana03"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "get all profiles",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://github-profile-analyzer-4lwj.onrender.com/api/profiles",
+          "protocol": "https",
+          "host": [
+            "github-profile-analyzer-4lwj",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "api",
+            "profiles"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "get profiles with pagination",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://github-profile-analyzer-4lwj.onrender.com/api/profiles?page=1&limit=5",
+          "protocol": "https",
+          "host": [
+            "github-profile-analyzer-4lwj",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "api",
+            "profiles"
+          ],
+          "query": [
+            {
+              "key": "page",
+              "value": "1"
+            },
+            {
+              "key": "limit",
+              "value": "5"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
